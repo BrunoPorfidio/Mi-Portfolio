@@ -4,7 +4,7 @@ body {
     background-color: linen;
 } 
 
-h1 {
+h0 {
     color: aliceblue;
     background-color: rgba(0, 0, 0, 0.658); width: 25%;
 }
@@ -42,10 +42,3 @@ img {
     padding-left: 40%;
 }
 
-.col-sm-5{
-    background-color: rgb(125, 125, 241);
-}
-
-.container{
-    background-color:brown
-}
