@@ -1,0 +1,51 @@
+
+
+body {
+    background-color: linen;
+} 
+
+h1 {
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.658); width: 25%;
+}
+    
+
+.texto {
+    padding-left: 40%;
+    padding-top: 2%;
+}
+
+#foto {
+    padding-left: 40%;
+    padding-top: 2%;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.redes {
+    width: 90px;
+    height: 90px;
+    margin-top: -100px;
+}
+
+.formulario{
+    background-color: aliceblue;
+    padding-left: 40%;
+    padding-top: 2%;
+}
+
+.boton {
+    padding-left: 40%;
+}
+
+.col-sm-5{
+    background-color: rgb(125, 125, 241);
+}
+
+.container{
+    background-color:brown
+}
