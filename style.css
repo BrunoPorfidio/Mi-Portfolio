@@ -6,8 +6,9 @@ body {
 h1 {
     color: aliceblue;
     background-color: rgba(0, 0, 0, 0.658); width: 390px;
-    margin-left: 40%;    
+     margin-left: 40%;
 }
+    
 
 .texto {
     padding-left: 40%;
