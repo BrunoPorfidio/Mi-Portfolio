@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Dentro de "Head" can los comandos que no seran visibles dentro de la pagina web, sirve para agregar metainformacion y poner el titulo que aparecera
+    en la pestania del navegador -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=2">
+    <title>Mi pagina</title>
+    <link href="style.css" rel="stylesheet" type="text/css"> 
+    <!-- El comando de arriba es mucho muy importante, sirve para enlazar este archivo HTML al archivo CSS -->
+</head>
+<body>
+    <div class="container"> 
+        <div class="row">
+            <div class="col-12">
+                <header>
+                    <h1>Mi primera Aplicacion Web</h1> 
+                    <!-- El "<h1> </h1>" significa Encabezado1 -->
+                    <div class="boton">
+                        <button type="button" class="btn btn-primary">Inicio</button>
+                        <!-- Este comando agrega botones, sera util para mi Portfolio -->
+                    </div>
+                </header>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <section class="texto"> 
+                    <!-- Ese el "class="texto" " para podes modifcarlo luego con als reglas de css, y estando en css, uso el coanod ".texto" para seleccionar todo lo que este en esta Class -->
+                    <h2>
+                        <a href="https://github.com/BrunoPorfidio"> <b>Ir a mi repositorio de Github</b></a>
+                        <!-- "a href" sirve agregar enlaces-->
+                    </h2>
+                    <h3>
+                        <p style="font-size: 20px;" > Contiene:</p>
+                        <!-- "<p> </p>" Significa Parrafo, sirve para agregar texto -->
+                    </h3>
+                    <ol style="font-size: 20px;">
+                        <!-- "<ol> </ol>" significa Lista Ordenada, sirve para agregar listas, ordenadas por numeros, pero, agregandoles el comando:"" type:"A" " la lista pasara de estar ordnado en
+                             numeros a letras en Mayus"-->
+                        <li>Mi repositorio para BackEnd</li>
+                         <li>Mi repositorio para FrontEnd</li>
+                         <!-- "<li> </li>" es para declarar su contenido en la lista -->
+                    </ol>
+                </section>
+            </div>
+        </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12"> 
+                <section> 
+                    <article id="foto"> 
+                        <p style="font-size: 30px;"> <strong> Y la foto de un Carpincho de bokita</strong> 
+                        </p>
+                        <img src = "https://media.ambito.com/adjuntos/239/imagenes/037/631/0037631943.jpg?0000-00-00-00-00-00" class="img-fluid" alt = "un carpincho fachero">
+                    </imag>
+                    </article> 
+                </section>
+                </div> 
+            </div>
+        </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <section>
+                    <footer class="redes"> 
+                        <a href="https://www.facebook.com/Porfidio.Bruno/" > <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1365px-Facebook_f_logo_%282019%29.svg.png"> </a>
+                        <a href="https://api.whatsapp.com/send?phone=5491163648636" > <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/479px-WhatsApp.svg.png"> 
+                        </a>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div id="formulario">
+        <div class="container">  
+            <div class="row">
+                <div class="col-12">
+                    <form class="formulario">
+    
+                        <div class="mb-3">
+                    
+                          <label for="idE" class="form-label">Correo</label>
+                    
+                          <input type="email" class="form-control" id="idE" aria-describedby ="idEH">
+                    
+                          <div id="idEH" class="form-text">Debe ser un correo válido.</div>
+                    
+                        </div>
+                    
+                        <div class="mb-3">
+                    
+                          <label for="exampleInputPassword1" class="form-label">Password</label>
+                    
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                    
+                        </div>
+                    
+                        <div class="mb-3 form-check">
+                    
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    
+                          <label class="form-check-label" for="exampleCheck1">Recordarme</label>
+                    
+                        </div>
+                    
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    
+                    </form>
+                </div>
+        </div>
+    </div>
+    
+    <script src="dist/bootstrap/js/bootstrap.js"></script>
+    <script src="dist/bootstrap/js/bootstrap.esm.js"></script>
+</body>
+</html>
