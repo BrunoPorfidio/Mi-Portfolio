@@ -39,11 +39,11 @@ img {
 }
 
 .boton {
-    padding-left: 40%;
+    padding-left:40%;
 }
 
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+    grid-template-columns: repeat(2, auto);
+    
   }
