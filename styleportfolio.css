@@ -14,13 +14,6 @@ body {
     padding-top: 2%;
 }
 
-#foto {
-    position: relative;
-    margin-left: 40%;
-    margin-right: auto;
-}
-
-
 .abs-center {
     display: flex;
     align-items: center;
