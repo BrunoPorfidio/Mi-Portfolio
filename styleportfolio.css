@@ -1,14 +1,13 @@
-
+@import "/bootstrap/css/bootstrap.css";
 
 body {
     background-color: linen;
 } 
 
-h0 {
-    color: aliceblue;
-    background-color: rgba(0, 0, 0, 0.658); width: 25%;
-}
-    
+.container{
+    display:grid;
+
+} 
 
 .texto {
     padding-left: 40%;
@@ -16,34 +15,23 @@ h0 {
 }
 
 #foto {
-    padding-left: 40%;
-    padding-top: 2%;
+    position: relative;
+    margin-left: 40%;
+    margin-right: auto;
 }
 
-img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
-}
 
-.redes {
-    width: 90px;
-    height: 90px;
-    margin-top: -100px;
-}
-
-.formulario{
-    background-color: aliceblue;
-    padding-left: 40%;
-    padding-top: 2%;
-}
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .form {
+    width: 450px;
+  }
 
 .boton {
     padding-left:40%;
 }
 
-.wrapper {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    
-  }
