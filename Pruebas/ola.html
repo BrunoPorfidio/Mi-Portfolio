@@ -8,15 +8,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=2">
     <title>Mi pagina</title>
     <link href="style.css" rel="stylesheet" type="text/css"> 
-    <!-- El comando de arriba es mucho muy importante, sirve para enlazar este archivo HTML al archivo CSS -->
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet"> 
+    <!-- El comando de arriba es mucho muy importante, sirve para enlazar archivos CSS al HTML -->
 </head>
 <body>
     <div class="container"> 
         <div class="row">
             <div class="col-12">
                 <header>
-                    <h1>Mi primera Aplicacion Web</h1> 
-                    <!-- El "<h1> </h1>" significa Encabezado1 -->
+                    <h1>que ubole</h1> 
+                    <!-- El "<h1> </h1>" significa Encabezado 1 -->
                     <div class="boton">
                         <button type="button" style="width: 150px; height: 50px" class="btn btn-primary">Inicio</button>
                         <button type="button" style="width: 150px; height: 50px" class="btn btn-primary">Inicio</button>
@@ -37,7 +38,7 @@
                         <!-- "a href" sirve agregar enlaces-->
                     </h2>
                     <h3>
-                        <p style="font-size: 20px;" > Contiene:</p>
+                        <p style="font-size: 20px;" > Cotiene:</p>
                         <!-- "<p> </p>" Significa Parrafo, sirve para agregar texto -->
                     </h3>
                     <ol style="font-size: 20px;">
@@ -66,18 +67,7 @@
                 </div> 
             </div>
         </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <section>
-                    <footer class="redes"> 
-                        <a href="https://www.facebook.com/Porfidio.Bruno/" > <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1365px-Facebook_f_logo_%282019%29.svg.png"> </a>
-                        <a href="https://api.whatsapp.com/send?phone=5491163648636" > <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/479px-WhatsApp.svg.png"> 
-                        </a>
-                </section>
-            </div>
-        </div>
-    </div>
+    
     <div id="formulario">
         <div class="container">  
             <div class="row">
@@ -116,7 +106,31 @@
                 </div>
         </div>
     </div>
-    
+
+    <script lang="javascritp">
+
+    class Humano{
+
+    constructor(nombre, apellido, edad){
+    this.nombre = nombre;
+    this.apellido = apellido;
+    this.anios = edad;
+    }
+
+    DiHola(){
+    alert(this.nombre + this.apellido + " que ubole");
+    }
+
+    DiAdios(){
+    alert(this.nombre + this.apellido + " Ahi te ves")
+    }
+
+    MostrarEdad(){
+    alert(this.nombre + this.apellido + " tiene " + this.edad)
+    }
+    }
+    var Pepe  = new Humano(Pepe, 34);
+    </script>
     <script src="dist/bootstrap/js/bootstrap.js"></script>
     <script src="dist/bootstrap/js/bootstrap.esm.js"></script>
 </body>
