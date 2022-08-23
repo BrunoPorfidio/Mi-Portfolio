@@ -1,9 +1,14 @@
-app/*
+.vscode
 
-
-/bootstrap/*
-
+app
 
 node_modules
 
 Pruebas
+
+bootstrap
+
+package.json
+
+package-lock.json
+
