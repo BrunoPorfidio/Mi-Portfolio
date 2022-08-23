@@ -1,4 +1,9 @@
+app/*
+
+
+/bootstrap/*
+
+
 node_modules
-app
-bootstrap
-.vscode
+
+Pruebas
