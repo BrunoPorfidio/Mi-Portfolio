@@ -1,32 +1,109 @@
-body {
-    background-color: linen;
-} 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Adamina;
+}
 
 .container{
-    display:grid;
-
-} 
-
-.texto {
-    padding-left: 40%;
-    padding-top: 2%;
-}
-
-.abs-center {
     display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .form {
-    width: 450px;
-  }
-
-.boton {
-    padding-left:40%;
-    border-color: black;
+    flex-wrap: wrap;
 }
 
-.carteles{
-    width: 18rem;
+.nombre{
+    color: rgb(255, 240, 240);
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(7px);
+    border: 2px solid #fff;
+    text-align: center;
+    margin: 20%;
 }
+
+.titulo{
+    font-size: 95px;
+}
+
+.subtitulo{
+    font-size: 40px;
+}
+
+.hero-banner{
+    background-image: url(/src/wallpaper/wallpaper3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.sobre-mi, .hero-proyects{
+    font-size: 25px;
+    backdrop-filter: blur(6px);
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 85%;
+    margin: auto;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.my-descrp-title{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 70px;
+    padding: 15px;
+}
+
+.my-descrp{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 30px;
+}
+
+.list-skills{
+    margin: 40px;
+}
+
+.title-skills{
+    text-align: center;
+    font-size: 60px;
+}
+
+.all-skils{
+    font-size: 30px;
+    text-align: left;
+}
+
+.cont-skills{
+    width: 100%;
+    background-color: rgb(145, 145, 145);
+    padding: 0%;
+}
+
+.skills{
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.subtitle-skills{
+    padding: 10px;
+}
+.html{
+    width: 30%; background-color: #d86c3a;
+}
+.css{
+    width: 30%; background-color: #2196f3;
+}
+.js{
+    width: 25%; background-color: #e2d520;
+}
+.angular{
+    width: 1%; background-color: #f44336;
+}
+.mysql{
+    width: 0; background-color: beige;
+}
+

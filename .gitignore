@@ -8,8 +8,6 @@ bootstrap
 
 package.json
 
-package-lock.json
-
-tsconfig.json
+iconos
 
 .vscode
