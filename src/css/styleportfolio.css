@@ -48,7 +48,7 @@ ul {
 
 .hero-nombre{
     color: rgb(255, 240, 240);
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(8px);
     border: 2px solid #fff;
     text-align: center;
@@ -67,7 +67,7 @@ ul {
 .hero-sobre-mi, .hero-proyects, .hero-skills, .hero-contacto{
     font-size: 20px;
     backdrop-filter: blur(6px);
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.7);
     width: 100%;
     margin: auto;
     border: 1px solid rgb(255, 255, 255);
