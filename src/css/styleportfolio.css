@@ -140,7 +140,7 @@ ul {
 }
 
 .hero-sobre-mi, .hero-skills{
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 .list-proyect, .name-proyect{
@@ -168,7 +168,6 @@ img {
     width: 70%;
     font-size: 25px;
 }
-
 
 .contact-informat{
     padding: 10px;
