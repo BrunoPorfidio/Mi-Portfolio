@@ -34,7 +34,7 @@ nav{
 }
 
 ul {
-    font-size: 25px;
+    font-size: 110%;
     list-style-type: none;
     margin: 0;
     padding: 10px;
@@ -42,7 +42,7 @@ ul {
   }
 
   .buttons{
-    padding: 15px;
+    padding: 2%;
     text-decoration: none;
   }
 
@@ -55,17 +55,19 @@ ul {
     margin: 20%;
 }
 
-.titulo{
-    font-size: 95px;
+/* .titulo{ 
+    font-size: 450%;
  
-}
+}*/
 
-.subtitulo{
-    font-size: 40px;
-}
+
+
+/* .subtitulo{
+    font-size: 200%;
+} */
 
 .hero-sobre-mi, .hero-proyects, .hero-skills, .hero-contacto{
-    font-size: 20px;
+
     backdrop-filter: blur(6px);
     background-color: rgba(0, 0, 0, 0.7);
     width: 100%;
@@ -80,7 +82,7 @@ ul {
 .my-descrp-title, .title-proyects, .title-skills{
     color: rgb(255, 255, 255);
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     padding: 20px;
     backdrop-filter: blur(6px);
     background-color: rgba(0, 0, 0, 0.3);
@@ -95,19 +97,20 @@ ul {
 .my-descrp{
     color: rgb(255, 255, 255);
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 40px;
     margin-bottom: 40px;
 }
 
 
 .all-skils{
-    font-size: 30px;
+    font-size: 20px;
     text-align: left;
 }
 
 .cont-skills{
     max-width: 95%;
+    max-height: 50px;
     background-color: rgb(145, 145, 145);
     padding: 0%;
 }
@@ -115,8 +118,6 @@ ul {
 .skills{
     font-size: 35px;
     text-align: right;
-    padding-top: 5px;
-    padding-bottom: 5px;
     color: black;
 }
 
@@ -136,7 +137,11 @@ ul {
     width: 0%; background-color: #f44336;
 }
 .mysql{
-    width: 0; background-color: beige;
+    width: 0%; background-color: beige;
+}
+
+.html, .css, .js, .angular, .mysql{
+    max-height: 50px;
 }
 
 .hero-sobre-mi, .hero-skills{
@@ -167,7 +172,6 @@ img {
     margin-top: 10%;
     width: 70%;
     height: 70%;
-    font-size: 25px;
 }
 
 .contact-informat{

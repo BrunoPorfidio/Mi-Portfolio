@@ -1,0 +1,39 @@
+@media (min-width:720px) {
+    .titulo{
+        font-size: 95px;;
+    }
+    .subtitulo{
+        font-size: 45px;
+    }
+
+    .hero-contacto{
+        font-size: 35px;
+    }
+}
+
+@media (max-width:719px) {
+    .titulo{
+        font-size: 70px;
+    }
+    .subtitulo{
+        font-size: 40px;
+    }
+
+    .hero-contacto{
+        font-size: 25px;
+    }
+}
+
+@media (max-width:450px) {
+    .titulo{
+        font-size: 40px;
+    }
+    .subtitulo{
+        font-size: 20px;
+    }
+
+    .hero-contacto{
+        font-size: 14px;
+    }
+
+}
