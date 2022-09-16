@@ -6,6 +6,10 @@
         font-size: 45px;
     }
 
+    .my-descrp{
+        font-size: 25px;
+    }
+
     .hero-contacto{
         font-size: 30px;
     }
@@ -24,6 +28,10 @@
         font-size: 30px;
     }
 
+    .my-descrp{
+        font-size: 22px;
+    }
+
     .hero-contacto{
         font-size: 25px;
     }
@@ -38,6 +46,14 @@
     .my-descrp-title, .title-proyects, .title-skills{
         font-size: 25px;
     }
+
+    .titulo{
+        font-size: 50px;
+    }
+    .subtitulo{
+        font-size: 25px;
+    }
+
 }
 
 @media (max-width:460px) {
@@ -53,7 +69,22 @@
     }
     
     .my-descrp-title, .title-proyects, .title-skills{
-        font-size: 20px;
+        font-size: 15px;
+    }
+
+
+}
+
+@media (max-width: 350px){
+    .titulo{
+        font-size: 30px;
+    }
+    .subtitulo{
+        font-size: 10px;
+    }
+
+    .my-descrp-title, .title-proyects, .title-skills{
+        font-size: 10px;
     }
 
 

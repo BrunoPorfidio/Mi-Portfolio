@@ -67,13 +67,11 @@ ul {
 } */
 
 .hero-sobre-mi, .hero-proyects, .hero-skills{
-
     backdrop-filter: blur(6px);
     background-color: rgba(0, 0, 0, 0.7);
     width: 100%;
     margin: auto;
     border: 1px solid rgb(255, 255, 255);
-    padding: 50px;
     box-shadow: 2px 2px 5px rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     text-align: center;
@@ -82,10 +80,10 @@ ul {
 .my-descrp-title, .title-proyects, .title-skills{
     color: rgb(255, 255, 255);
     text-align: center;
-    padding: 20px;
+    padding: 15px;
     backdrop-filter: blur(6px);
     background-color: rgba(0, 0, 0, 0.3);
-    width: 50%;
+    width: 40%;
     margin: auto;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 30px;
@@ -96,7 +94,6 @@ ul {
 .my-descrp{
     color: rgb(255, 255, 255);
     text-align: center;
-    font-size: 25px;
     margin-top: 40px;
     margin-bottom: 40px;
 }
