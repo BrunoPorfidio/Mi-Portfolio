@@ -55,17 +55,6 @@ ul {
     margin: 20%;
 }
 
-/* .titulo{ 
-    font-size: 450%;
- 
-}*/
-
-
-
-/* .subtitulo{
-    font-size: 200%;
-} */
-
 .hero-sobre-mi, .hero-proyects, .hero-skills{
     backdrop-filter: blur(6px);
     background-color: rgba(0, 0, 0, 0.7);
