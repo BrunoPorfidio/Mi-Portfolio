@@ -89,6 +89,7 @@ ul {
 
 
 .all-skils{
+    padding-bottom: 20px;
     font-size: 20px;
     text-align: left;
 }
@@ -107,7 +108,7 @@ ul {
 }
 
 .subtitle-skills{
-    padding: 10px;
+    padding-top: 15px;
 }
 .html{
     width: 30%; background-color: #d86c3a;
