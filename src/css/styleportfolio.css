@@ -4,8 +4,8 @@
     box-sizing: border-box;
     font-family: Adamina;
     scroll-behavior: smooth;
-}
 
+}
 #bg {
     position: fixed; 
     top: 0; 
@@ -94,6 +94,7 @@ ul {
     text-align: left;
 }
 
+
 .cont-skills{
     max-width: 95%;
     max-height: 50px;
@@ -139,6 +140,7 @@ ul {
     margin: auto;
     text-align: center;
 }
+
 
 .card{
     background-color: black;
