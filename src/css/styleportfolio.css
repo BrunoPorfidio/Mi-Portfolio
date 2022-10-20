@@ -55,7 +55,7 @@ ul {
     margin: 20%;
 }
 
-.hero-sobre-mi, .hero-proyects, .hero-skills{
+.hero-sobre-mi, .hero-proyects{
     backdrop-filter: blur(6px);
     background-color: rgba(0, 0, 0, 0.7);
     width: 100%;
@@ -65,20 +65,36 @@ ul {
     color: rgb(255, 255, 255);
     text-align: center;
 }
+.my-skills-title{
+    width: 20% !important;
+}
 
-.my-descrp-title, .title-proyects, .title-skills{
+.my-descrp-title, .title-proyects, .my-skills-title{
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 15px;
     backdrop-filter: blur(6px);
     background-color: rgba(0, 0, 0, 0.3);
-    width: 40%;
+    width: 30%;
     margin: auto;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 30px;
     box-shadow: 2px 2px 5px rgb(0, 0, 0);
 }
 
+.icons-skills{
+    display: flex;
+    justify-content: center;
+}
+
+.i-skills{
+    width: 120px;
+    margin: 20px;
+    padding: 20px;
+    align-items: center;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
 
 .my-descrp{
     color: rgb(255, 255, 255);
@@ -88,50 +104,7 @@ ul {
 }
 
 
-.all-skils{
-    padding-bottom: 20px;
-    font-size: 20px;
-    text-align: left;
-}
-
-
-.cont-skills{
-    max-width: 95%;
-    max-height: 50px;
-    background-color: rgb(145, 145, 145);
-    padding: 0%;
-}
-
-.skills{
-    font-size: 35px;
-    text-align: right;
-    color: black;
-}
-
-.subtitle-skills{
-    padding-top: 15px;
-}
-.html{
-    width: 30%; background-color: #d86c3a;
-}
-.css{
-    width: 30%; background-color: #2196f3;
-}
-.js{
-    width: 25%; background-color: #e2d520;
-}
-.angular{
-    width: 0%; background-color: #f44336;
-}
-.mysql{
-    width: 0%; background-color: beige;
-}
-
-.html, .css, .js, .angular, .mysql{
-    max-height: 50px;
-}
-
-.hero-sobre-mi, .hero-skills{
+.hero-sobre-mi{
     margin-bottom: 5%;
 }
 
@@ -142,7 +115,7 @@ ul {
 }
 
 
-.card{
+.card-proyects{
     background-color: black;
     border-radius: 5px;
     border: 1px #fff solid;
