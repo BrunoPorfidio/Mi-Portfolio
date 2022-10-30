@@ -65,11 +65,8 @@ ul {
     color: rgb(255, 255, 255);
     text-align: center;
 }
-.my-skills-title{
-    width: 20% !important;
-}
 
-.my-descrp-title, .title-proyects, .my-skills-title{
+.my-descrp-title, .title-proyects, .my-skills-title, .title-soft-hability{
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 15px;
@@ -82,6 +79,11 @@ ul {
     box-shadow: 2px 2px 5px rgb(0, 0, 0);
 }
 
+.my-skills-title{
+    width: 20%;
+}
+
+
 .icons-skills{
     display: flex;
     justify-content: center;
@@ -91,9 +93,21 @@ ul {
     width: 120px;
     margin: 20px;
     padding: 20px;
-    align-items: center;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 10px;
+}
+
+.icon-btsp{
+    margin-top: 20px;
+}
+.icon-js{
+    margin-top: 15px;
+}
+.icon-angular{
+    margin-top: 10px;
+}
+.icon-sql{
+    margin-top: 15px;
 }
 
 .my-descrp{

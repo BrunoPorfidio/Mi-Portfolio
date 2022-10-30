@@ -20,7 +20,7 @@
         font-size: 30px;
     }
 
-    .my-descrp-title, .title-proyects, .title-skills, .my-skills-title{
+    .my-descrp-title, .title-proyects, .title-skills, .my-skills-title, .title-soft-hability{
         font-size: 40px;
     }
 
@@ -48,7 +48,7 @@
         font-size: 25px;
     }
     
-    .my-descrp-title, .title-proyects, .title-skills, .my-skills-title{
+    .my-descrp-title, .title-proyects, .title-skills, .my-skills-title, .title-soft-hability{
         font-size: 30px;
     }
 
@@ -67,7 +67,7 @@
         width: 30px;
     }
 
-    .my-descrp-title, .title-skills, .my-skills-title{
+    .my-descrp-title, .title-skills, .my-skills-title, .title-soft-hability{
         font-size: 25px;
     }
     .title-proyects{
@@ -83,10 +83,6 @@
 
     .all-skils{
         font-size: 15px;
-    }
-
-    .html, .css, .js, .angular, .mysql{
-        max-height: 40px;
     }
 
     .cont-skills{
@@ -117,15 +113,12 @@
         font-size: 14px;
     }
     
-    .my-descrp-title, .title-proyects, .title-skills, .my-skills-title{
+    .my-descrp-title, .title-proyects, .title-skills, .my-skills-title, .title-soft-hability{
         font-size: 15px;
     }
 
     .all-skils{
         font-size: 15px;
-    }
-    .html, .css, .js, .angular, .mysql{
-        max-height: 30px;
     }
     .cont-skills{
         max-height: 30px;
@@ -152,15 +145,12 @@
         font-size: 10px;
     }
 
-    .my-descrp-title, .title-proyects, .title-skills, .my-skills-title{
+    .my-descrp-title, .title-proyects, .title-skills, .my-skills-title, .title-soft-hability{
         font-size: 10px;
     }
 
     .all-skils{
         font-size: 13px;
-    }
-    .html, .css, .js, .angular, .mysql{
-        max-height: 20px;
     }
     .cont-skills{
         max-height: 20px;
