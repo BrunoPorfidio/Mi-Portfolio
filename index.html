@@ -8,17 +8,13 @@
     <title>Bruno Porfidio Portfolio</title>
     <link href="src/css/styleportfolio.css" rel="stylesheet" type="text/css" /> 
     <link href="src/css/responsive.css" rel="stylesheet"  />
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, 
-        maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="src/img/logo.png"/>
     <link rel="stylesheet" 
         href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 </head>
 <body>
-    <section class="hero-banner banner-filter" id="main">
-        <img src="src/wallpaper/wallpaper3.jpg" id="bg" alt="">
-    </section> 
-    <section class="hero-nav">
+    <section class="hero-nav" id="main">
         <nav>
             <ul class="inicio">
                 <li class="nav-item">
@@ -30,22 +26,34 @@
             </ul>
         </nav>
     </section>
+    <header>
         <section class="hero-nombre" >
-                <div class="container">
-                    <div class="col">
-                        <h1 class="titulo" >BRUNO PORFIDIO</h1>
-                        <h2 class="subtitulo">Programador Web Full Stack</h2>
-                    </div>
+            <div class="container">
+                <div class="col">
+                  <h1 class="titulo" >BRUNO PORFIDIO</h1>
+                  <h2 class="subtitulo">Programador Web Full Stack</h2>
                 </div>
+            </div>
         </section>
+    </header>
         <section class="hero-sobre-mi" id="about-me">
             <div class="container">
                 <h1 class="my-descrp-title"> Sobre mi</h1>
-                <p class="my-descrp">
-                    Me llamo Bruno, soy un aficionado a la tecnologia y computadoras.
-                    A inicios del 2022 inicie mi cursada en Argentina Programa.
-                    Al ir avanzando en la materia, cada vez me apasionó mas la Programacion.
-                </p>
+                <div class="row">
+                    <div class="col-8">
+                        <p class="my-descrp">
+                            Me llamo Bruno, soy un aficionado a la tecnologia y computadoras.
+                            A inicios del 2022 inicie mi cursada en Argentina Programa.
+                            Al ir avanzando en la materia, cada vez me apasionó mas la Programacion.
+                            Anteriormente ejercia de Tecnico en computacion, donde tenia el papel
+                             tanto de Atencion al Cliente, como de Tecnico.
+                        </p>
+                    </div>
+                    <div class="col-4">
+                        <img src="/src/img/me.jpg" alt="Bruno Porfidio photo" 
+                        class="img-responsive img-circle">
+                    </div>
+                </div>
             </div>
             <div class="hero-skills">
                 <h2 class="my-skills-title">Mis skills</h2>
@@ -72,23 +80,6 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="hero-habili-blandas">
-                <div class="container">
-                    <div class="row">
-                        <p class="title-soft-hability"> Mis habilidades blandas</p> 
-                        <p class="soft-descrp">
-                            <ul>
-                                <li>
-                                    * 
-                                </li>
-                                <li>
-                                    * 
-                                </li>
-                            </ul>
-                        </p>
-                    <div>
-                <div>
-            </div> -->
         </section>
         <section class="hero-proyects" id="proyects">
         <div class="container">

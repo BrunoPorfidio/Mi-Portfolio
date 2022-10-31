@@ -5,23 +5,11 @@
     [class*="skill-img"]{
         width: 70px;
     }
-    .titulo{
-        font-size: 95px;;
+    [class*="img-responsive"]{
+        height: 85%;
     }
-    .subtitulo{
-        font-size: 45px;
-    }
-
-    .my-descrp{
-        font-size: 25px;
-    }
-
-    .hero-contacto{
-        font-size: 30px;
-    }
-
-    .my-descrp-title, .title-proyects, .title-skills, .my-skills-title, .title-soft-hability{
-        font-size: 40px;
+    body{
+        font-size: 14px;
     }
 
 }
@@ -33,23 +21,9 @@
     [class*="skill-img"]{
         width: 50px;
     }
-    .titulo{
-        font-size: 70px;
-    }
-    .subtitulo{
-        font-size: 30px;
-    }
-
-    .my-descrp{
-        font-size: 22px;
-    }
-
-    .hero-contacto{
-        font-size: 25px;
-    }
-    
-    .my-descrp-title, .title-proyects, .title-skills, .my-skills-title, .title-soft-hability{
-        font-size: 30px;
+   
+    body{
+        font-size: 11px;
     }
 
 }
@@ -67,29 +41,8 @@
         width: 30px;
     }
 
-    .my-descrp-title, .title-skills, .my-skills-title, .title-soft-hability{
-        font-size: 25px;
-    }
-    .title-proyects{
-        font-size: 20px;
-    }
-
-    .titulo{
-        font-size: 50px;
-    }
-    .subtitulo{
-        font-size: 25px;
-    }
-
-    .all-skils{
-        font-size: 15px;
-    }
-
-    .cont-skills{
-        max-height: 40px;
-    }
-    .skills{
-        font-size: 25px;
+    body{
+        font-size: 9px;
     }
 
 }
@@ -102,31 +55,10 @@
         width: 35px;
         margin-bottom:50px;
     }
-    .titulo{
-        font-size: 40px;
+   
+    body{
+        font-size: 6px;
     }
-    .subtitulo{
-        font-size: 20px;
-    }
-
-    .hero-contacto{
-        font-size: 14px;
-    }
-    
-    .my-descrp-title, .title-proyects, .title-skills, .my-skills-title, .title-soft-hability{
-        font-size: 15px;
-    }
-
-    .all-skils{
-        font-size: 15px;
-    }
-    .cont-skills{
-        max-height: 30px;
-    }
-    .skills{
-        font-size: 20px;
-    }
-
 }
 
 @media (max-width: 350px){
@@ -135,28 +67,12 @@
         height: 25%;
     }
     [class*="skill-img"]{
-        width: 25px;
+        width: 1.5625em;
         margin-bottom:50px;
     }
-    .titulo{
-        font-size: 30px;
-    }
-    .subtitulo{
-        font-size: 10px;
-    }
 
-    .my-descrp-title, .title-proyects, .title-skills, .my-skills-title, .title-soft-hability{
-        font-size: 10px;
-    }
-
-    .all-skils{
-        font-size: 13px;
-    }
-    .cont-skills{
-        max-height: 20px;
-    }
-    .skills{
-        font-size: 15px;
+    body{
+        font-size: 6px;
     }
 
 }

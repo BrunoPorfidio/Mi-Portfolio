@@ -4,22 +4,41 @@
     box-sizing: border-box;
     font-family: Adamina;
     scroll-behavior: smooth;
-
 }
-#bg {
-    position: fixed; 
-    top: 0; 
-    left: 0; 
-    min-width: 100%;
-    min-height: 100%;
-    filter: blur(0.5px);
-  }
+
+body{
+    background-color: black;
+    font-size: 16px;
+}
+
+.img-circle {
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: 85%;
+}
+
+header {
+    padding: 20%;
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url(/src/wallpaper/wallpaper3.jpg);
+    background-position: center center;
+    background-repeat: none;
+    background-size: cover;
+}
 
 .container{ 
-    padding: 20px;
+    padding: 1.25em;
 }
 
 nav{
+    font-size: 1.5em;
     text-align: center;
     backdrop-filter: blur(6px);
     background-color: rgba(0, 0, 0, 0.8);
@@ -34,10 +53,9 @@ nav{
 }
 
 ul {
-    font-size: 110%;
     list-style-type: none;
     margin: 0;
-    padding: 10px;
+    padding: 0.625em;
     width: 100%;
   }
 
@@ -47,17 +65,22 @@ ul {
   }
 
 .hero-nombre{
-    color: rgb(255, 240, 240);
     background-color: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(8px);
     border: 2px solid #fff;
-    text-align: center;
-    margin: 20%;
+}
+.titulo{
+    font-size: 5.9375em;
+}
+
+.subtitulo{
+    font-size: 2.8125em;
 }
 
 .hero-sobre-mi, .hero-proyects{
+    font-size: 2.1875em;
     backdrop-filter: blur(6px);
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.9);
     width: 100%;
     margin: auto;
     border: 1px solid rgb(255, 255, 255);
@@ -67,6 +90,7 @@ ul {
 }
 
 .my-descrp-title, .title-proyects, .my-skills-title, .title-soft-hability{
+    font-size: 1.5em;
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 15px;
@@ -77,6 +101,10 @@ ul {
     border: 1px solid rgb(255, 255, 255);
     border-radius: 30px;
     box-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+.title-proyects{
+    font-size: 1.1em;
 }
 
 .my-skills-title{
@@ -90,37 +118,39 @@ ul {
 }
 
 .i-skills{
-    width: 120px;
-    margin: 20px;
-    padding: 20px;
+    width: 7.5rem;
+    margin: 1.25rem;
+    padding: 1.25rem;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 10px;
 }
 
 .icon-btsp{
-    margin-top: 20px;
+    margin-top: 1.25em;
 }
 .icon-js{
-    margin-top: 15px;
+    margin-top: .9375em;
 }
 .icon-angular{
-    margin-top: 10px;
+    margin-top: .625em;
 }
 .icon-sql{
-    margin-top: 15px;
+    margin-top: .9375em;
 }
 
 .my-descrp{
+    font-size: 0.875em;
     color: rgb(255, 255, 255);
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
 }
 
 
 .hero-sobre-mi{
     margin-bottom: 5%;
 }
+
 
 .list-proyect, .name-proyect{
     
@@ -130,20 +160,22 @@ ul {
 
 
 .card-proyects{
+    font-size: .8em;
     background-color: black;
     border-radius: 5px;
     border: 1px #fff solid;
-    margin: 25px;
+    margin: 1.5625rem;
 }
 
 .card-cont{
-    padding: 10px 16px ;
+    padding: .625rem 1em ;
 }
 img {
     border-radius: 5px 5px 0 0;
   }
 
 .hero-contacto{
+    font-size: 1.875em;
     margin-left: 15%;
     margin-top: 5%;
     width: 70%;
@@ -156,9 +188,9 @@ img {
 }
 
 .contact-informat{
-    padding: 10px;
-    padding-top: 40px;
-    margin-bottom: 20px;
+    padding: .625rem;
+    padding-top: 2.5em;
+    margin-bottom: 1.25em;
     border-bottom: 1px solid #de423a;
 }
 
@@ -173,10 +205,10 @@ img {
 
 
 .formulario--textarea{
-    min-height: 100px;
-    min-width: 100px;
+    min-height: 6.25em;
+    min-width: 6.25em;
     max-width: 100%;
-    max-height: 200px;
+    max-height: 12.5em;
 }
 .formulario--btn{
     color: #fff;
