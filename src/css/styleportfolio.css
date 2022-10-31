@@ -27,7 +27,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(/src/wallpaper/wallpaper3.jpg);
+    background-image: url(../wallpaper/wallpaper3.jpg);
     background-position: center center;
     background-repeat: none;
     background-size: cover;
