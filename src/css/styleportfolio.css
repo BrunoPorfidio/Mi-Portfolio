@@ -151,6 +151,36 @@ ul {
     margin-bottom: 5%;
 }
 
+.readMore_btn{
+    font-size: 1.5625rem;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    background-color: #000;
+    color: #fff;
+
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.danger-line{
+    height: 1.875rem;
+    color: white;
+    margin-bottom: .9375em;
+    margin-top: 1.5625em;
+    background-image: repeating-linear-gradient(
+      -55deg,
+      #000,
+      #000 20px,
+      #ffb101 20px,
+      #ffb101 40px
+    );
+  }
 
 .list-proyect, .name-proyect{
     
@@ -214,7 +244,7 @@ img {
     min-height: 6.25em;
     min-width: 6.25em;
     max-width: 100%;
-    max-height: 12.5em;
+    max-height: 100px;
 }
 .formulario--btn{
     color: #fff;
